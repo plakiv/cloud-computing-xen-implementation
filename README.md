@@ -3,5 +3,5 @@
 
 ##	Actual working diagram
 
-![](screenshot.jpg)
+![](screenshot.png)
 

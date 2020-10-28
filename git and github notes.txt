@@ -1,0 +1,108 @@
+=====================================================
+these all commands revolve around just git
+======================================================
+
+
+*To install git to your system
+
+sudo apt install git 
+
+*create a new directory in terminal and goto that directory in terminal and type
+
+git init
+
+*to add a file to the git repository
+
+git add <file name>
+
+*to check the status of the all the operations of change over the git repository
+
+git status
+
+*to see the log of whole git repository
+
+git log
+
+git log --oneline
+
+
+*to commit the current status of files and update repository
+
+[once]
+git config --global user.email 'user mail'
+git config --global user.name 'user name'
+
+git commit -m <message>
+
+*to add a non updation request for some files, create a file in the main folder with name .gitignore and add the names of the files which has to be ignored.
+
+
+
+* to remove a particular file from the repository
+
+git rm --cached <filename>
+
+
+*to shift the pointer of the repository to some old timeline
+
+git checkout <hash id>
+
+*to shift to the master branch
+
+git checkout master
+
+*to delete or reset the git repository to the particular timeline "permanently"
+
+git reset --hard <hash id>
+
+
+* to create a new branch in the git repository
+
+git checkout -b <branch name>
+
+* to see the list of all the remote branches
+
+git branch -a
+
+*to delete the particular branch
+
+git branch -d <branch name>
+
+*to merge the two branches
+
+go to the particular branch which will serve as the base say 'master' in our case
+
+git merge <other branch>
+
+====================================
+github commands
+====================================
+
+*to add/link the remote github repository
+
+git remote add origin <github repo address>
+
+*to see the push and the pull github repository address
+
+git remote -v
+
+*to pull the master branch from remote github repository
+
+git pull origin master
+
+*to push the modified version of the files to the remote github repository
+
+git push -u origin master
+
+*to delete the branch of remote github repostitory 
+
+git push origin --delete <branch name>
+
+
+
+
+
+
+
+
+
